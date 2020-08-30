@@ -22,7 +22,6 @@ I recommend downloading the "Raspberry Pi OS (32-bit) with desktop and recommend
 2. Select the Target device where you want Etcher to flash the image file to. Select your MicroSD Card.
 3. Begin the flashing process.
 
-![](images/SSH_and_WPA_Files.JPG)
 
 ### Step 3: Create 2 files in the Boot:/ Directory 
 Once the flashing is complete, your computer may prompt you to Format the card. **DO NOT** format the card because it will erase the Raspberry OS.
@@ -34,6 +33,8 @@ Once the flashing is complete, your computer may prompt you to Format the card. 
 We need the `SSH` file because we will be using the SSH protocol to connect to our Pi using a Terminal. 
 
 We also need the `wpa` file because we will be connecting the Pi to our wireless network.
+
+![](images/SSH_and_WPA_Files.JPG)
 
 ### Step 4: Setting up wireless for the Pi 
 1. Open the `wpa.supplicant.conf` file in Notepad and copy/paste this code in the file.
