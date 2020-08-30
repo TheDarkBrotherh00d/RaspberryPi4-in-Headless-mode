@@ -17,7 +17,7 @@ If you have not done so already here are the links:
 
 I recommend downloading the "Raspberry Pi OS (32-bit) with desktop and recommended software" image.
 
-![Raspberry Pi OS Home Page](images/Step1/RaspberryPiOS_Desktop_and_Software.JPG)
+![Raspberry Pi OS Home Page](images/Step1/RaspberryPiOS_with_Desktop_Debian_Buster.JPG)
 ![Balena Etcher Home Page](images/Step1/BalenaEtcher1.JPG)
 
 ### Step 2: Flashing the MicroSD Card
