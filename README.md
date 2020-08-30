@@ -22,6 +22,8 @@ I recommend downloading the "Raspberry Pi OS (32-bit) with desktop and recommend
 2. Select the Target device where you want Etcher to flash the image file to. Select your MicroSD Card.
 3. Begin the flashing process.
 
+!images/
+
 ### Step 3: Create 2 files in the Boot:/ Directory 
 Once the flashing is complete, your computer may prompt you to Format the card. **DO NOT** format the card because it will erase the Raspberry OS.
 1. **OPTIONAL** You can navigate to File Explorer Ribbon Toolbar and enable "File name extensions". This will reveal all file extension types for every file on your system.
