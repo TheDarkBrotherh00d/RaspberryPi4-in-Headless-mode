@@ -20,11 +20,11 @@ I recommend downloading the "Raspberry Pi OS (32-bit) with desktop and recommend
 ![Balena Etcher Home Page](images/Step1/BalenaEtcher1.JPG)
 ![Raspberry Pi OS Home Page](images/Step1/RaspberryPiOS_Desktop_and_Software.JPG)
 
-### Step 2: Format and Partition the MicroSD Card
+### Step 2: Flashing the MicroSD Card
 1. Once you have insered the MicroSD Card, launch Balena Etcher and select the Raspberry Pi OS as the file to flash from.
 2. Select the Target device where you want Etcher to flash the image file to. Select your MicroSD Card.
 3. Begin the flashing process.
-
+![Flashing Process](images/Step2/Flashing_Process.JPG)
 
 ### Step 3: Create 2 files in the Boot:/ Directory 
 Once the flashing is complete, your computer may prompt you to Format the card. **DO NOT** format the card because it will erase the Raspberry OS.
@@ -37,7 +37,8 @@ We need the `SSH` file because we will be using the SSH protocol to connect to o
 
 We also need the `wpa` file because we will be connecting the Pi to our wireless network.
 
-![](images/SSH_and_WPA_Files.JPG)
+![BOOT Partition](images/Step3/Boot-Partition.JPG)
+![Create Two Files](images/Step3/Creating_two_files.jpg)
 
 ### Step 4: Setting up wireless for the Pi 
 1. Open the `wpa.supplicant.conf` file in Notepad and copy/paste this code in the file.
