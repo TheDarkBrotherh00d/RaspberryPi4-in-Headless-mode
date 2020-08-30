@@ -38,7 +38,7 @@ We need the `SSH` file because we will be using the SSH protocol to connect to o
 We also need the `wpa` file because we will be connecting the Pi to our wireless network.
 
 ![BOOT Partition](images/Step3/Boot-Partition.JPG)
-![Create Two Files](images/Step3/Creating_two_files.jpg)
+![Create Two Files](images/Step3/Create_ssh_and_wpa.jpg)
 
 ### Step 4: Setting up wireless for the Pi 
 1. Open the `wpa.supplicant.conf` file in Notepad and copy/paste and save this code in the file.
