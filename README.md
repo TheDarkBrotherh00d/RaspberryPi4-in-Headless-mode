@@ -54,21 +54,21 @@ network={
 }
 ```
 The code tells your Pi details such as the:
-- The country you are in
-- What the wireless programme is
-- Configuring updates
-- Your wireless network details such as the SSID, PASSPHRASE and type of encryption
+- The country you are in.
+- The type of  wireless programme it's using.
+- Configuring updates.
+- Your wireless network details such as the SSID, PASSPHRASE and type of encryption your access point is using.
 
 **NOTE** 
 - You need to change the `ssid=` and the `psk=` to your wireless network name and password. For example, my wireless network which I will be connecting too is called `SPEED-K9`. So the `ssid=` will be `ssid="SPEED-K9"` followed by the wireless password `psk="MyPa$$w0rd"`.
-- You must set the correct encryption that  is on your wireless network. My router uses WPA2-PSK so the key_mgmt= is `key_mgmt=WPA2-PSK`
+- You must set the correct encryption that  is on your wireless network. My router uses WPA2-PSK so the `key_mgmt=` is `key_mgmt=WPA-PSK`
 
 ### Step 5: Powering up and connecting to the Pi
 Safely eject the card, insert it into the Pi and power it ON. 
-If everything goes well, the Pi should be connected to the wireless network. You can find this out by opening a Terminal/Command Prompt and typing
-`ssh raspberrypi -4`.
+If everything goes well, the Pi should be connected to the wireless network and the Pi is now in Headless Mode. You can find this out by viewing your access point wireless devices. I'm using Virgin Media Hub3.0 access point, your access point may be different so make sure you follow your access point manual.
+You can also find out via Terminal/Command Prompt. Simply type `ssh pi@192.168.x.x`
+
 The default account name and password is `pi/raspberry`.
-You can also find out but looking into your routers wireless devices list. If you can see the RaspberryPi listed, it has sucessfully connected and the Pi is now Headless Mode.  
 
 ### Troublshooting the Pi
 1. If you are unable to connect to the Pi or view it listed in your router, this is because the Pi did not connect to the wireless network. Repeat Steps 3 and 4.
