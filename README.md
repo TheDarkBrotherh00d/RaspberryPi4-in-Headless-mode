@@ -31,7 +31,7 @@ Once the flashing is complete, your computer may prompt you to Format the card. 
 1. **OPTIONAL** You can navigate to File Explorer Ribbon Toolbar and enable "File name extensions". This will reveal all file extension types for every file on your system.
 2. Open the BOOT Partition in File Explorer and create two Text Documents. 
    - Name the first document `SSH` with no file extensions
-   - Name the second document `wpa.supplicant.conf` (make sure `.conf` extension is included otherwise the raspberry pi will not read the file)
+   - Name the second document `wpa.supplicant.conf` (make sure `.conf` extension is included otherwise the Raspberry Pi will not read the file)
 
 We need the `SSH` file because we will be using the SSH protocol to connect to our Pi using a Terminal. 
 
@@ -41,24 +41,27 @@ We also need the `wpa` file because we will be connecting the Pi to our wireless
 ![Create Two Files](images/Step3/Creating_two_files.jpg)
 
 ### Step 4: Setting up wireless for the Pi 
-1. Open the `wpa.supplicant.conf` file in Notepad and copy/paste this code in the file.
+1. Open the `wpa.supplicant.conf` file in Notepad and copy/paste and save this code in the file.
 ```
-country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
+country=US
 
 network={
-    ssid="NETWORK-NAME"
-    psk="NETWORK-PASSWORD"
+	ssid="NETWORK NAME GOES"
+	psk="NETWORK PASSWORD GOES HERE"
+	key_mgmt=WPA2-PSK
 }
 ```
 The code tells your Pi details such as the:
 - The country you are in
 - What the wireless programme is
 - Configuring updates
-- Your wireless network details such as the SSID and PASSPHRASE
+- Your wireless network details such as the SSID, PASSPHRASE and type of encryption
 
-**NOTE** You need to change the `ssid=` and the `psk=` to your wireless network name and password. For example, my wireless network which I will be connecting too is called `SPEED-K9`. So the `ssid=` will be `ssid=SPEED-K9` followed by the wireless password `psk=MyPa$$w0rd`.
+**NOTE** 
+- You need to change the `ssid=` and the `psk=` to your wireless network name and password. For example, my wireless network which I will be connecting too is called `SPEED-K9`. So the `ssid=` will be `ssid=SPEED-K9` followed by the wireless password `psk=MyPa$$w0rd`.
+- You must set the correct encryption that  is on your wireless network. My router uses WPA2-PSK so the key_mgmt= is `key_mgmt=WPA2-PSK`
 
 ### Step 5: Powering up and connecting to the Pi
 Safely eject the card, insert it into the Pi and power it ON. 
