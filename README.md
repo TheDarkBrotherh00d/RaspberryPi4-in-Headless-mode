@@ -68,7 +68,7 @@ The code tells your Pi details such as the:
 ### Step 5: Powering up and connecting to the Pi
 Safely eject the card, insert it into the Pi and power it ON. 
 If everything goes well, the Pi should be connected to the wireless network and the Pi is now in Headless Mode. You can find this out by viewing your access point wireless devices. I'm using Virgin Media Hub3.0 access point, your access point may be different so make sure you follow your access point manual.
-
+![VM-Hub-3.0](Connected_Wireless_Devices.JPG)
 
 
 Once you have discovered what the IP address is assigned to the Pi. Open Terminal/PowerShell and type `ssh pi@192.168.0.7`.
