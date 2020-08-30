@@ -26,14 +26,14 @@ I recommend downloading the "RaspberryPiOS_with_Desktop_Debian_Buster" image.
 3. Begin the flashing process.
 ![Flashing Process](images/Step2/Flashing_Process.JPG)
 
-### Step 3: Create 2 files in the Boot:/ Directory 
-Once the flashing is complete, your computer may prompt you to Format the card. **DO NOT** format the card because it will erase the Raspberry OS.
+### Step 3: Create 2 files in the `Boot:/` Directory 
+Once the flashing is complete, remove the card from your computer and reinsert back. A message may appear and prompt you to Format the card. **DO NOT** format the card because it will erase the Raspberry OS.
 1. **OPTIONAL** You can navigate to File Explorer Ribbon Toolbar and enable "File name extensions". This will reveal all file extension types for every file on your system.
 2. Open the BOOT Partition in File Explorer and create two Text Documents. 
-   - Name the first document `SSH` with no file extensions
-   - Name the second document `wpa.supplicant.conf` (make sure `.conf` extension is included otherwise the Raspberry Pi will not read the file)
+   - Name the first text file `ssh` with no file extensions
+   - Name the second text file `wpa.supplicant.conf` (make sure `.conf` extension is included otherwise the Raspberry Pi will not read the file)
 
-We need the `SSH` file because we will be using the SSH protocol to connect to our Pi using a Terminal. 
+We need the `ssh` file because we will be using the ssh protocol to connect to our Pi using PowerShell. 
 
 We also need the `wpa` file because we will be connecting the Pi to our wireless network.
 
@@ -61,12 +61,14 @@ The code tells your Pi details such as the:
 
 **NOTE** 
 - You need to change the `ssid=` and the `psk=` to your wireless network name and password. For example, my wireless network which I will be connecting too is called `SPEED-K9`. So the `ssid=` will be `ssid="SPEED-K9"` followed by the wireless password `psk="MyPa$$w0rd"`.
-- You must set the correct encryption that  is on your wireless network. My router uses WPA2-PSK so the `key_mgmt=` is `key_mgmt=WPA-PSK`
+- You must set the correct encryption that is on your wireless network. My router uses WPA2-PSK so the `key_mgmt=` is `key_mgmt=WPA-PSK`
 
 ### Step 5: Powering up and connecting to the Pi
 Safely eject the card, insert it into the Pi and power it ON. 
 If everything goes well, the Pi should be connected to the wireless network and the Pi is now in Headless Mode. You can find this out by viewing your access point wireless devices. I'm using Virgin Media Hub3.0 access point, your access point may be different so make sure you follow your access point manual.
-You can also find out via Terminal/Command Prompt. Simply type `ssh pi@192.168.x.x`
+
+Once you have discovered what the IP address is assigned to the Pi. Open Terminal/PowerShell and type `ssh pi@192.168.0.7`.
+
 
 The default account name and password is `pi/raspberry`.
 
