@@ -48,7 +48,7 @@ update_config=1
 country=US
 
 network={
-	ssid="NETWORK NAME GOES"
+	ssid="NETWORK NAME GOES HERE"
 	psk="NETWORK PASSWORD GOES HERE"
 	key_mgmt=WPA2-PSK
 }
