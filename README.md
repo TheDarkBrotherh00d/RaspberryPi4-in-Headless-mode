@@ -59,6 +59,8 @@ The code tells your Pi details such as the:
 - Configuring updates.
 - Your wireless network details such as the SSID, PASSPHRASE and type of encryption your access point is using.
 
+![Configuring wireless settings for Pi](images/Step4/Copy-Paste_wireless_config.JPG)
+
 **NOTE** 
 - You need to change the `ssid=` and the `psk=` to your wireless network name and password. For example, my wireless network which I will be connecting too is called `SPEED-K9`. So the `ssid=` will be `ssid="SPEED-K9"` followed by the wireless password `psk="MyPa$$w0rd"`.
 - You must set the correct encryption that is on your wireless network. My router uses WPA2-PSK so the `key_mgmt=` is `key_mgmt=WPA-PSK`
