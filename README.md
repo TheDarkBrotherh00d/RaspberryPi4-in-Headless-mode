@@ -17,6 +17,9 @@ If you have not done so already here are the links:
 
 I recommend downloading the "Raspberry Pi OS (32-bit) with desktop and recommended software" image.
 
+![Balena Etcher Home Page](images/Step1/)
+![Raspberry Pi OS Home Page](images/Step1/)
+
 ### Step 2: Format and Partition the MicroSD Card
 1. Once you have insered the MicroSD Card, launch Balena Etcher and select the Raspberry Pi OS as the file to flash from.
 2. Select the Target device where you want Etcher to flash the image file to. Select your MicroSD Card.
