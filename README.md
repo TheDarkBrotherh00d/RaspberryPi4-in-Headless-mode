@@ -66,7 +66,7 @@ The code tells your Pi details such as the:
 ### Step 5: Powering up and connecting to the Pi
 Safely eject the card, insert it into the Pi and power it ON. 
 If everything goes well, the Pi should be connected to the wireless network. You can find this out by opening a Terminal/Command Prompt and typing
-`SSH raspberrypi -4`.
+`ssh raspberrypi -4`.
 The default account name and password is `pi/raspberry`.
 You can also find out but looking into your routers wireless devices list. If you can see the RaspberryPi listed, it has sucessfully connected and the Pi is now Headless Mode.  
 
