@@ -15,7 +15,7 @@ If you have not done so already here are the links:
 - [Balena Etcher](https://www.balena.io/etcher/)
 - [Raspberry Pi OS](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
 
-I recommend downloading the "RaspberryPiOS_with_Desktop_Debian_Buster.JPG" image.
+I recommend downloading the "RaspberryPiOS_with_Desktop_Debian_Buster" image.
 
 ![Raspberry Pi OS Home Page](images/Step1/RaspberryPiOS_with_Desktop_Debian_Buster.JPG)
 ![Balena Etcher Home Page](images/Step1/BalenaEtcher1.JPG)
