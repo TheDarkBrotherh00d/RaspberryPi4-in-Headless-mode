@@ -70,8 +70,9 @@ If everything goes well, the Pi should be connected to the wireless network. You
 The default account name and password is `pi/raspberry`.
 You can also find out but looking into your routers wireless devices list. If you can see the RaspberryPi listed, it has sucessfully connected and the Pi is now Headless Mode.  
 
-**NOTE** If you are unable to connect to the Pi or view it listed in your router, this is because the Pi did not connect to your wireless network. Repeat Steps 3 and 4.
-
+### Troublshooting the Pi
+1. If you are unable to connect to the Pi or view it listed in your router, this is because the Pi did not connect to your wireless network. Repeat Steps 3 and 4.
+2. If that doesn't work either and you have more than one Raspberry Pi device connected to the same network, this could be because the SSH file already as different Pi saved. Simply edit the SSH file using any text editor and remove this saved device.
 
 
 
