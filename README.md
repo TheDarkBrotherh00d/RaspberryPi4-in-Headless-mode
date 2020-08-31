@@ -1,5 +1,4 @@
-## Raspberry Pi 4 in Headless mode
-![Raspberry-Pi-Logo](images/Headless-Pi-Logo.jpg)
+## Raspberry Pi 4 in Headless mode ![Raspberry-Pi-Logo](images/Headless-Pi-Logo.jpg)
 
 ### Requirements
 Besides the Raspberry Pi, you will also need;
