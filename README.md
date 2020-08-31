@@ -81,6 +81,6 @@ Once you have discovered what the IP address is assigned to the Pi. Open Termina
 
 ![Old-config-settings-for-pi](images/Troublshooting/Morethan_one_Pi_device.jpg)
 
-![Remove-old-host-key-details](images/Troubleshooting/Remove_old_ssh_settings.JPG)
+![Remove-old-host-key-details](images/Troublshooting/Remove_old_ssh_settings.JPG)
 
 
