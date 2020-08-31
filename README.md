@@ -71,14 +71,16 @@ If everything goes well, the Pi should be connected to the wireless network and 
 
 ![VM-Hub-3.0](images/Step5/Connected_Wireless_Devices.JPG)
 
-Once you have discovered what the IP address is assigned to the Pi. Open Terminal/PowerShell and type `ssh pi@192.168.0.3`. The default account name and password is `pi/raspberry`.
+Once you have discovered what the IP address is assigned to the Pi. Open Terminal/PowerShell and type `ssh pi@192.168.0.3`. The default password is `raspberry`.
+
+![ssd-into-Pi](images/Step5/ssh_into_Pi.JPG)
 
 ### Troublshooting the Pi
 1. If you are unable to connect to the Pi or view it listed in your router, this is because the Pi did not connect to the wireless network. Repeat Steps 3 and 4.
-2. If that does not work either and you have more than one Raspberry Pi device connected to the same network, this could be because the SSH file already has a different Pi device saved. Simply edit the SSH file using any text editor and remove this saved device. Reconnect to the Pi and SSH should prompt you with the Pi's default password.
+2. If that does not work, it could mean you have more than one Raspberry Pi or previously used the same Pi deviceon the network. The ssh file already has a "host key" saved. Simply navigate to C:\Users\"YourComputerName"\.ssh\known_hosts. Open the `known_hosts` file in Notepad and remove the host key. Save the file and follow Step 5 again.
 
-![Old-config-settings-for-pi]()
+![Old-config-settings-for-pi](images/Troublshooting/Morethan_one_Pi_device.jpg)
 
-
+![Remove-old-host-key-details](images/Troubleshooting/Remove_old_ssh_settings.JPG)
 
 
