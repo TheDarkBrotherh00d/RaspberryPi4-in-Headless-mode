@@ -1,5 +1,11 @@
-## Raspberry Pi 4 in Headless mode
+## Setting up a Headless Raspberry Pi
 ![Raspberry-Pi-Logo](images/Headless-Pi-Logo.jpg)
+
+### My setup
+- Running OS: Windows 10
+- Type of Pi: Raspberry Pi 4 Model B with 4GB RAM
+- Type of Wireless: Using the 5Ghz frequency
+-  MicroSD Card: This guide uses a 32GB SanDisk Ultra 10mbps card.
 
 ### Requirements
 Besides the Raspberry Pi, you will also need;
@@ -9,7 +15,7 @@ Besides the Raspberry Pi, you will also need;
 - A wireless network (Router broadcasting wireless internet)
 
 ### Recommendations
-- Ensure you are using a reliable MicroSD Card. This guide uses a 32GB SanDisk Ultra 10mbps card.
+- Ensure you are using a reliable MicroSD Card.
 - If your PC does not come with a MicroSD Card slot, use a MicroSD Card adapter or USB to MicroSD.
 
 ### Step 1: Download Etcher and Raspberry Pi OS
