@@ -86,6 +86,7 @@ Once you have discovered what the IP address is assigned to the Pi. Open Termina
 ### Troublshooting the Pi
 1. If you are unable to connect to the Pi or view it listed in your router, this is because the Pi did not connect to the wireless network. Repeat Steps 3 and 4.
 2. If that does not work, this could mean you have more than one Raspberry Pi or previously used the same Pi device on the network. The ssh file already has a "host key" saved. Simply navigate to C:\Users\"YourComputerName"\.ssh\known_hosts. Open the `known_hosts` file in Notepad and remove the host key. Save the file and follow Step 5 again.
+3. If the pi still cannot connected to the Wi-Fi, try a different Raspberry pi OS and repeat the entire process (I discovered my Pi occessionally stuggles to connect to the Wi-Fi and found using either one of the three Raspberry Pi OS overcomes the problem).
 
 ![Old-config-settings-for-pi](images/Troublshooting/Morethan_one_Pi_device.jpg)
 
