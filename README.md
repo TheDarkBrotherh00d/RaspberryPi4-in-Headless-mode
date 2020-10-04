@@ -1,4 +1,4 @@
-## Setting up a Headless Raspberry Pi
+## Setting up a Headless Raspberry Pi via Wi-Fi
 ![Raspberry-Pi-Logo](images/Headless-Pi-Logo.jpg)
 
 ### My setup
